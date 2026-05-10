@@ -217,8 +217,3 @@ A project's manifest (`.project.json`) lists the project name, version, and depe
 }
 ```
 
-A VS Code extension should:
-
-- Detect `.kpar` files and offer to extract / open them as a workspace.
-- Detect `.project.json` and `.meta.json` to auto-configure the library search path.
-- Optionally integrate with `sysand` for dependency resolution.

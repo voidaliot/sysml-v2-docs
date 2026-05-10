@@ -43,7 +43,7 @@ standard library package SysML {
 }
 ```
 
-A VS Code extension or AI agent **must** treat `sysml.library` as part of the language — built-in element names like `Part`, `PartUsage`, `RequirementDefinition`, etc. are resolved via library imports, not as language keywords.
+An AI agent **must** treat `sysml.library` as part of the language — built-in element names like `Part`, `PartUsage`, `RequirementDefinition`, etc. are resolved via library imports, not as language keywords.
 
 ---
 
