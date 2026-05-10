@@ -15,13 +15,9 @@ This knowledge base has **two intended consumers**:
 
 | If you are… | Start with | Then read |
 |---|---|---|
-| A developer setting up the project for the first time | `vscode-extension/00-dev-environment.md` | `vscode-extension/01-architecture.md` |
-| A developer scaffolding the VS Code extension | `vscode-extension/01-architecture.md` | `language/02-textual-notation-syntax.md`, `vscode-extension/03-grammar-parser.md` |
-| A project lead planning the extension's delivery | `vscode-extension/IMPLEMENTATION-PLAN.md` | `vscode-extension/05-features-checklist.md`, `vscode-extension/01-architecture.md` |
 | An AI agent executing implementation tasks | `vscode-extension/IMPLEMENTATION-PLAN-AI-AGENT.md` | `vscode-extension/00-dev-environment.md` |
 | An AI agent asked to write `.sysml` files | `ai-agents/01-modeling-guide.md` | `ai-agents/04-validation-checklist.md`, `language/04-definition-vs-usage.md` |
 | A systems engineer learning SysML v2 | `language/01-overview.md` | `language/04-definition-vs-usage.md`, `examples/` |
-| Someone integrating with existing tools | `vscode-extension/06-existing-tools-and-references.md` | `language/10-standard-libraries.md` |
 
 ---
 
