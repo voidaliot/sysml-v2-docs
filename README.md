@@ -15,7 +15,6 @@ This knowledge base has **two intended consumers**:
 
 | If you are… | Start with | Then read |
 |---|---|---|
-| An AI agent executing implementation tasks | `vscode-extension/IMPLEMENTATION-PLAN-AI-AGENT.md` | `vscode-extension/00-dev-environment.md` |
 | An AI agent asked to write `.sysml` files | `ai-agents/01-modeling-guide.md` | `ai-agents/04-validation-checklist.md`, `language/04-definition-vs-usage.md` |
 | A systems engineer learning SysML v2 | `language/01-overview.md` | `language/04-definition-vs-usage.md`, `examples/` |
 
