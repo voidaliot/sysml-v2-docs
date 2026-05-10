@@ -22,32 +22,27 @@ This knowledge base has **two intended consumers**:
 
 ## Directory layout
 
-```
-sysml-v2-docs/
-├── README.md                                   <-- you are here
-│
-├── language/                                   <-- the SysML v2 language itself
-│   ├── 01-overview.md                          Architecture: KerML → SysML → API stack
-│   ├── 02-textual-notation-syntax.md           Complete grammar reference
-│   ├── 03-keywords-and-operators.md            All reserved words and symbols
-│   ├── 04-definition-vs-usage.md               THE core paradigm — read this first
-│   ├── 05-structural-modeling.md               part / port / item / interface / connection
-│   ├── 06-behavioral-modeling.md               action / state / transition / flow / calculation
-│   ├── 07-requirements-and-constraints.md      requirement / constraint / satisfy / assume / require
-│   ├── 08-analysis-and-verification.md         analysis case / verification case / use case
-│   ├── 09-packages-imports-and-views.md        Namespaces, imports, view / viewpoint / rendering
-│   └── 10-standard-libraries.md                Kernel / Systems / Domain libraries (units, geometry…)
-│
-├── ai-agents/                                  <-- guidance for AI assistants
-│   ├── 01-modeling-guide.md                    How to translate user intent into SysML v2
-│   ├── 02-prompting-rules.md                   Hard rules & invariants the agent must respect
-│   ├── 03-common-patterns.md                   Reusable templates (system, requirement, state machine…)
-│   └── 04-validation-checklist.md              Pre-output checklist — run BEFORE returning code
-│
-└── examples/                                   <-- runnable starter material
-    ├── flashlight.sysml                        Minimal end-to-end model
-    └── vehicle-skeleton.sysml                  Larger model showcasing all major constructs
-```
+- **language/** - the SysML v2 language itself
+  - [01-overview.md](language/01-overview.md) - Architecture: KerML → SysML → API stack
+  - [02-textual-notation-syntax.md](language/02-textual-notation-syntax.md) - Complete grammar reference
+  - [03-keywords-and-operators.md](language/03-keywords-and-operators.md) - All reserved words and symbols
+  - [04-definition-vs-usage.md](language/04-definition-vs-usage.md) - THE core paradigm — read this first
+  - [05-structural-modeling.md](language/05-structural-modeling.md) - part / port / item / interface / connection
+  - [06-behavioral-modeling.md](language/06-behavioral-modeling.md) - action / state / transition / flow / calculation
+  - [07-requirements-and-constraints.md](language/07-requirements-and-constraints.md) - requirement / constraint / satisfy / assume / require
+  - [08-analysis-and-verification.md](language/08-analysis-and-verification.md) - analysis case / verification case / use case
+  - [09-packages-imports-and-views.md](language/09-packages-imports-and-views.md) - Namespaces, imports, view / viewpoint / rendering
+  - [10-standard-libraries.md](language/10-standard-libraries.md) - Kernel / Systems / Domain libraries (units, geometry…)
+
+- **ai-agents/** - guidance for AI assistants
+  - [01-modeling-guide.md](ai-agents/01-modeling-guide.md) - How to translate user intent into SysML v2
+  - [02-prompting-rules.md](ai-agents/02-prompting-rules.md) - Hard rules & invariants the agent must respect
+  - [03-common-patterns.md](ai-agents/03-common-patterns.md) - Reusable templates (system, requirement, state machine…)
+  - [04-validation-checklist.md](ai-agents/04-validation-checklist.md) - Pre-output checklist — run BEFORE returning code
+
+- **examples/** - runnable starter material
+  - [flashlight.sysml](examples/flashlight.sysml) - Minimal end-to-end model
+  - [vehicle-skeleton.sysml](examples/vehicle-skeleton.sysml) - Larger model showcasing all major constructs
 
 ---
 
