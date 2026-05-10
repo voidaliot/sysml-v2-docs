@@ -38,7 +38,7 @@ sysml-v2-docs/
 │   ├── 08-analysis-and-verification.md         analysis case / verification case / use case
 │   ├── 09-packages-imports-and-views.md        Namespaces, imports, view / viewpoint / rendering
 │   └── 10-standard-libraries.md                Kernel / Systems / Domain libraries (units, geometry…)
-││
+│
 ├── ai-agents/                                  <-- guidance for AI assistants
 │   ├── 01-modeling-guide.md                    How to translate user intent into SysML v2
 │   ├── 02-prompting-rules.md                   Hard rules & invariants the agent must respect
