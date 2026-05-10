@@ -4,7 +4,7 @@ A structured documentation set extracted from the **OMG SysML v2.0 final adoptio
 
 This knowledge base has **two intended consumers**:
 
-1. **Developers building a VS Code extension** for SysML v2 — grammar, language server, syntax highlighting, validation, and feature requirements.
+1. **Developers ** using SysML v2 — grammar, language server, syntax highlighting, validation.
 2. **AI coding agents** that will help users *author* `.sysml` and `.kerml` files — language rules, modeling patterns, and a validation checklist to prevent the most common mistakes.
 
 > The same content serves both. An AI agent should read the `language/` directory exactly the way the extension's language server consumes its grammar.
