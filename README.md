@@ -42,17 +42,7 @@ sysml-v2-docs/
 │   ├── 08-analysis-and-verification.md         analysis case / verification case / use case
 │   ├── 09-packages-imports-and-views.md        Namespaces, imports, view / viewpoint / rendering
 │   └── 10-standard-libraries.md                Kernel / Systems / Domain libraries (units, geometry…)
-│
-├── vscode-extension/                           <-- building the editor
-│   ├── 00-dev-environment.md                   Prerequisites, install, repo layout, troubleshooting
-│   ├── 01-architecture.md                      High-level component design
-│   ├── 02-language-server-requirements.md      LSP feature spec
-│   ├── 03-grammar-parser.md                    Langium vs Tree-sitter vs Xtext decision
-│   ├── 04-syntax-highlighting.md               TextMate grammar scopes & semantic tokens
-│   ├── 05-features-checklist.md                Validation, hover, completion, go-to, rename, fold, format
-│   ├── 06-existing-tools-and-references.md     Sensmetry SysIDE, Astah, Pilot Implementation, SysON
-│   └── IMPLEMENTATION-PLAN.md                  Phased delivery plan: 4 phases, 14 sprints, 28 weeks → v1.0
-│
+││
 ├── ai-agents/                                  <-- guidance for AI assistants
 │   ├── 01-modeling-guide.md                    How to translate user intent into SysML v2
 │   ├── 02-prompting-rules.md                   Hard rules & invariants the agent must respect
