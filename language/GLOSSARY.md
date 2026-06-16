@@ -1377,12 +1377,12 @@ package Vehicles {
 }
 
 package Other {
-    import Vehicles::*;
+    private import Vehicles::*;
     // Car is visible here; InternalPart is not; ISQ::* is also visible (re-exported)
 }
 ```
 
-> ✅ Default import visibility is `private` — use `public` only when you intend to re-export.
+> ✅ Visibility must be explicitly stated. 
 > ✅ `public` on an import is a common source of unintended namespace pollution; use carefully.
 
 ---
