@@ -59,7 +59,7 @@ import OtherPkg::SomeDef as Alias;   // aliasing
 ```sysml
 public  import ISQ::*;     // members are re-exported by my package
 private import Helpers::*; // members are local; not visible to importers of me
-import Helpers::*;         // shorthand: defaults to private
+// import Helpers::*;         // Must show visibility of an export explicitly.  
 ```
 
 ### 2.3 Common standard imports
